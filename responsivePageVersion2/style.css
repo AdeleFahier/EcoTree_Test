@@ -1,0 +1,15 @@
+.seeMoreButton:after{
+    content: "\002794";
+    position: relative;
+    right: -10px;
+}
+
+.apostrophe:after{
+    position: relative;
+    content : "\00201C";
+    /* text-align: left; */
+    font: normal normal normal 119px/33px Montserrat;
+    letter-spacing: 0px;
+    color: #429A2F;
+    opacity: 1;  
+}
