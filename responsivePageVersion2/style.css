@@ -14,6 +14,10 @@
     opacity: 1;  
 }
 
+.courbeDesk{
+    margin-bottom: 50px;
+}
+
 
 /* MEDIA QUERIES REPONSIVE SECTION 1 2 3 Telephone et tablette*/
 
@@ -115,6 +119,9 @@
     }
 }
 @media screen and (min-width: 731px){
+    #onetwotreeTitle{
+        font-size: 35px !important;
+    }
     #step2{
         top: 620px !important;
     }
@@ -165,20 +172,16 @@
 
 @media screen and (min-width: 836px){
     #step2Content{
-        left: 32% !important;
+        left: 30% !important;
     }
 }
-@media screen and (min-width: 851px){
-    #step2Content{
-        left: 34% !important;
-    }
-}
+
 @media screen and (min-width: 876px){
     #step3{
         top: 1090px !important;
     }
     #step2Content{
-        left: 36% !important;
+        left: 33% !important;
     }
 }
 
@@ -187,10 +190,10 @@
         top: 1140px !important;
     }
     #step2Content{
-        left: 38% !important;
+        left: 35% !important;
     }
     #step1Content{
-        left: 29% !important;
+        left: 28% !important;
     }
 }
 @media screen and (min-width: 950px){
@@ -201,8 +204,167 @@
         top: 800px !important;
     }
     #step2Content{
-        left: 39% !important;
+        left: 37% !important;
     }
 }
 
 
+/* MEDIA QUERIES SECTION 1 2 TREE VERSION DESK */
+
+@media screen and (min-width: 1049px){
+    #step3ContentDesk{
+        bottom: 200px !important;
+    }
+    #step2ContentDesk{
+        bottom: 190px !important;
+    }
+}
+@media screen and (min-width: 1128px){
+    #step3ContentDesk{
+        bottom: 220px !important;
+    }
+    #step2ContentDesk{
+        bottom: 200px !important;
+    }
+}
+@media screen and (min-width: 1196px){
+    #step1Desk{
+        right: 800px !important;
+    }
+    #step2Desk{
+        right: 400px !important;
+    }
+    #step3ContentDesk{
+        bottom: 240px !important;
+    }
+    #step2ContentDesk{
+        bottom: 190px !important;
+    }
+}
+@media screen and (min-width: 1270px){
+    #step1Desk{
+        right: 850px !important;
+    }
+    #step2Desk{
+        right: 450px !important;
+    }
+    #step3Desk{
+        right: 90px !important;
+        bottom: 460px !important;
+    }
+    #step3ContentDesk{
+        bottom: 200px !important;
+        left: 82% !important;
+    }
+    #step2ContentDesk{
+        bottom: 190px !important;
+    }
+}
+@media screen and (min-width: 1336px){
+    #step3Desk{
+        bottom: 480px !important;
+    }
+    #step2ContentDesk{
+        bottom: 200px !important;
+    }
+    #step1Desk{
+        right: 900px !important;
+    }
+}
+@media screen and (min-width: 1410px){
+    #step3ContentDesk{
+        bottom: 220px !important;
+    }
+    #step2ContentDesk{
+        bottom: 210px !important;
+    }
+}
+@media screen and (min-width: 1480px){
+    #step3ContentDesk{
+        bottom: 240px !important;
+    }
+    #step2ContentDesk{
+        bottom: 220px !important;
+    }
+}
+@media screen and (min-width: 1556px){
+    #step3ContentDesk{
+        bottom: 260px !important;
+    }
+}
+@media screen and (min-width: 1628px){
+    #step3ContentDesk{
+        bottom: 280px !important;
+    }
+    #step2ContentDesk{
+        bottom: 240px !important;
+    }
+}
+@media screen and (min-width: 1694px){
+    #step3ContentDesk{
+        bottom: 310px !important;
+    }
+    #step2ContentDesk{
+        bottom: 250px !important;
+    }
+}
+@media screen and (min-width: 1784px){
+    #step3Desk{
+        bottom: 600px !important;
+    }
+    #step3ContentDesk{
+        bottom: 200px !important;
+        left: 80% !important;
+    }
+    #step1Desk{
+        right: 1150px !important;
+    }
+    #step1ContentDesk{
+        left: 30% !important;
+    }
+    #step2Desk{
+        right: 600px !important;
+    }
+    #step2ContentDesk{
+        bottom: 240px !important;
+    }
+}
+@media screen and (min-width: 1862px){
+    #step3ContentDesk{
+        bottom: 220px !important;
+    }
+    #step2ContentDesk{
+        bottom: 250px !important;
+    }
+}
+@media screen and (min-width: 1940px){
+    #step3ContentDesk{
+        bottom: 240px !important;
+    }
+}
+@media screen and (min-width: 2000px){
+    #step3ContentDesk{
+        bottom: 260px !important;
+    }
+}
+@media screen and (min-width: 2050px){
+    #step3ContentDesk{
+        bottom: 270px !important;
+    }
+    #step2ContentDesk{
+        bottom: 270px !important;
+    }
+    #step1ContentDesk{
+        bottom: 290px !important;
+    }
+}
+@media screen and (min-width: 2112px){
+    #step3ContentDesk{
+        bottom: 280px !important;
+    }
+}
+@media screen and (min-width: 2152px){
+    #step3ContentDesk{
+        bottom: 300px !important;
+    }
+}
